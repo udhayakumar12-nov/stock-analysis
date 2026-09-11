@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+yfinance
+httpx
+beautifulsoup4
+python-multipart
+pillow
+google-generativeai
+youtube-transcript-api
+python-dotenv
+feedparser
+requests
+pandas
+numpy
+supabase
+pydantic
