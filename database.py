@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+
 
 # Supabase லைப்ரரி சரிபார்த்தல்
 try:
@@ -8,8 +10,8 @@ except ImportError:
     SUPABASE_AVAILABLE = False
     Client = None
 
-SUPABASE_URL = os.getenv("SUPABASE_URL", "https://tvkveuuvlsxmgtzuwjtm.supabase.co")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY", "sb_secret_pIp8rwLhiK-u9TJ62Cg48w_1dHct4Yf")
+SUPABASE_URL = os.getenv("SUPABASE_URL", "")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY", "")
 
 # ==================== SECTOR ALIAS MAP (NEW) ====================
 # ✅ புதியது: Yahoo Finance-இன் உண்மையான GICS sector taxonomy உங்கள்
